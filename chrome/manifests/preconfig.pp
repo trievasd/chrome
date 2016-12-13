@@ -1,4 +1,4 @@
-class chrome::preconfig {
+class chrome {
 	file { '/etc/apt/sources.list':
 	content => template("/etc/puppet/modules/chrome/templates/sources.list"),
 	}
